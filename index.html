@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="1. HTML_CSS project/Ninja Ken.png" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <!-- nav -->
+      <nav>
+        <div class="logo">NINJA KEN</div>
+        <ul>
+          <li>Tentang Saya</li>
+          <li>Proyek Contoh</li>
+          <li>Hubungi Saya</li>
+        </ul>
+      </nav>
+    </header>
+    <!-- hero -->
+    <div class="hero">
+      <h1>NINJA KEN<span>.</span></h1>
+      <h2>MY PORTFOLIO</h2>
+      <img src="1. HTML_CSS project/Ninja Ken.png" alt="NINJA KEN" />
+    </div>
+
+    <!-- about -->
+    <div class="about">
+      <h2>TENTANG SAYA</h2>
+      <h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quaerat aut ipsam repudiandae deserunt unde nihil, consequatur veniam explicabo provident quia numquam nemo at doloremque iure labore tempore quae pariatur, blanditiis
+        cum ad accusamus. Atque vitae temporibus consectetur, vero hic pariatur? Dicta facilis in laborum iusto magnam ipsa ut pariatur? Explicabo atque architecto, odit eos doloribus fuga ab tempora consequatur?
+      </h3>
+    </div>
+    <!-- proecjts -->
+    <div class="projects">
+      <div class="title-project">
+        <h2>PROJECTS</h2>
+      </div>
+
+      <div class="contents-wrapper first">
+        <div class="contents-item fade">
+          <img src="1. HTML_CSS project/1.png" alt="1" />
+          <p>Image 1</p>
+        </div>
+        <div class="contents-item fade ">
+          <img src="1. HTML_CSS project/2.png" />
+          <p>Image 2</p>
+        </div>
+        <div class="contents-item fade ">
+          <img src="1. HTML_CSS project/3.png" />
+          <p>Image 3</p>
+        </div>
+      </div>
+
+        <div class="contents-wrapper second">
+          <div class="contents-item fade ">
+            <img src="1. HTML_CSS project/gurudomba-flying.png" alt="1" />
+            <p>Image 1</p>
+          </div>
+          <div class="contents-item fade ">
+            <img src="1. HTML_CSS project/gurudomba.png" />
+            <p>Image 2</p>
+          </div>
+          <div class="contents-item fade ">
+            <img src="1. HTML_CSS project/happy-ninjaken.png" />
+            <p>Image 3</p>
+          </div>
+        </div>
+
+        <a class="prev" onclick="updateSlide(-1)">&#10094;</a>
+      <a class="next" onclick="updateSlide(1)">&#10095;</a>
+      
+    </div>
+
+    <!-- form -->
+    <div class="contact-form">
+      <div>
+        <h3 class="section-title">Hubungi kami</h3>
+      </div>
+      <form>
+        <input placeholder="Email" />
+        <textarea placeholder="Pesan"></textarea>
+
+        <input class="contact-submit" type="submit" value="Kirim" />
+      </form>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-logo">NINJA KEN</div>
+      <div class="footer-list">
+        <ul>
+          <li>Tentang Saya</li>
+          <li>Projects</li>
+          <li>Hubungi Saya</li>
+        </ul>
+      </div>
+    </footer>
+
+
+    <script src="script.js">
+      
+    </script>
+  </body>
+</html>
